@@ -1,0 +1,19 @@
+terrainAnalysisExt:
+  ros__parameters:
+    scanVoxelSize: 0.1
+    decayTime: 10.0
+    noDecayDis: 0.0
+    clearingDis: 30.0
+    useSorting: false
+    quantileZ: 0.1 
+    vehicleHeight: 1.5
+    voxelPointUpdateThre: 100
+    voxelTimeUpdateThre: 2.0
+    lowerBoundZ: -2.5
+    upperBoundZ: 1.0
+    disRatioZ: 0.1 
+    terrainConnThre: 0.5
+    terrainUnderVehicle: -0.75
+    ceilingFilteringThre: 2.0
+    localTerrainMapRadius: 4.0
+    test_param: true

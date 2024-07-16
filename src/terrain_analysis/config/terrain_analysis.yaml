@@ -1,0 +1,28 @@
+terrainAnalysis:
+  ros__parameters:
+    scanVoxelSize: 0.05
+    decayTime: 2.0
+    noDecayDis: 4.0
+    clearingDis: 8.0
+    useSorting: false
+    quantileZ: 0.25
+    considerDrop: true
+    limitGroundLift: false
+    maxGroundLift: 0.15
+    clearDyObs: true
+    minDyObsDis: 0.3
+    minDyObsAngle: 0.0
+    minDyObsRelZ: -0.5
+    minDyObsVFOV: -16.0
+    maxDyObsVFOV: 16.0
+    minDyObsPointNum: 1
+    noDataObstacle: false
+    noDataBlockSkipNum: 0
+    minBlockPointNum: 10
+    vehicleHeight: 1.5
+    voxelPointUpdateThre: 100
+    voxelTimeUpdateThre: 2.0
+    minRelZ: -2.5
+    maxRelZ: 1.0
+    disRatioZ: 0.2
+    test_param: true

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Dcamera">
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <link name="velodyne">
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.000</ixy>
+          <ixz>0.000</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.000</iyz>
+          <izz>0.001</izz>
+        </inertia>
+        <mass>0.114</mass>
+      </inertial>
+
+      <!-- <collision name="lidar_sensor_collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01</radius>
+            <length>0.01</length>
+          </cylinder>
+        </geometry>
+      </collision> -->
+
+      <visual name="lidar_sensor_visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0508</radius>
+            <length>0.05</length>
+          </cylinder>
+        </geometry>
+      </visual>
+
+      <sensor name='depth_camera' type='depth'>
+        <visualize>0</visualize>
+        <update_rate>30</update_rate>
+        <camera>
+          <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.1</near>
+            <far>100.0</far>
+          </clip>
+        </camera>
+        <plugin name='depth_camera_plugin' filename='libgazebo_ros_camera.so'>
+          <topicName>/depth_camera/image_raw</topicName>
+          <frameName>depth_camera</frameName>
+          <min_range>0.1</min_range>
+          <max_range>100.0</max_range>
+          <gaussianNoise>0.008</gaussianNoise>
+          <timestamp>true</timestamp>
+        </plugin>
+      </sensor>
+
+    </link>
+
+      
+  </model>
+</sdf>

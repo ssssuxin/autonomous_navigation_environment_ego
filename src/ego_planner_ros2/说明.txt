@@ -1,0 +1,11 @@
+这个
+colcon build --symlink-install
+ros2 launch ego_planner single_run_in_sim.launch.py 
+可直接使用，是单个的精简版，
+然后多个蜂群的launch.py还没有做，还有相关的包也没转，多个的话这个得在全版那里做
+
+
+
+报错：
+make[2]: *** 没有规则可制作目标“/home/suxin/MY_WORKS/ENV/src/ego_planner_ros2/install/bspline_opt/lib/bspline_opt/libbspline_opt.so”，由“traj_server” 需求。 停止。
+当把工程源码复制到别的工程的src时，要记得改cmakelist里面动态库.so文件的路径，根据报错提示改就行了

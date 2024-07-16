@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="turtlebot3_burger">
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+
+    <link name="base_footprint"/>
+<!-- 对于pose标签的解释
+1.在模型生成的时候，即调用这个sdf文件的model脚本里面首先会有一个pose标签，这个标签给了这个模型一个相对坐标系，模型就出生在这个坐标系里面
+2.以上面给的这个pose坐标为坐标原点构建新的坐标系，下面的所有标签表示在这个新坐标系下各个物品的位置
+:比如baselink，它一般pose选择 0 0 0 0 0 0 表示机器人的身体的中心点跟坐标原点重合，另外inertial惯性的pose应该与collision碰撞体积的pose一直（即质心在中心点上）
+:如果是轮子那么就修改 pose 相对于中心点移动到相应的位置上面
+:比如轮子的关节，（这里用了fixed）其实我们一般希望轮子能转动revolute 那么应该使得关节的位置在于轮子的中心点（轮子要围着那个点转）,那这里只要保证link的pose和joint的pose一直即可
+ -->
+
+ <!-- 车的高度怎么求，                ！！！首先要注意车的各个部位都是连在一起的整体，相当于相对静止，一个部分收到作用力而停滞另一个部分也停滞
+ 首先是找准footprint这个质心的位置，
+ 轮子最先接触地面，然后我们发现轮子的半径是0.06，轮子的质心比footprint高0.03，则此时footprint应该高于地面0.03
+ 然后柱子的最高点位于footprint0.55处，因此柱子顶面距离地面0.58
+ -->
+
+		<!-- <joint name="UAV/pc_case_joint" type="fixed">
+			<xacro:insert_block name="origin" />
+		  <parent link="base_link"/>
+		  <child link="UAV/pc_case_link"/>
+		</joint>
+
+		<link name="UAV/pc_case_link">
+		<collision name="11">
+			<origin xyz="0 0 0.0" rpy="0 0 0" />
+			<geometry>
+				<box size="0.114308 0.125194 0.044000" />
+			</geometry>
+		</collision>
+		<visual name="11">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh>
+            <uri>model://urdf_m100/meshes/m100_pccase.dae</uri>
+          </mesh>
+			</geometry>
+		</visual>
+
+		</link> -->
+	
+    <robot name="$(arg mav_name)" xmlns:xacro="http://ros.org/wiki/xacro">
+      <!-- Instantiate the mav with a generic odometry sensor. -->
+      <xacro:include filename="$(find turtlebot3_gazebo)/models/urdf_m100/m100_odometry_sensor.gazebo" />
+      <xacro:property name="frame_rate" value="20.0" />
+
+      <!-- Mount a picoflex in front of the Firefly.
+      <xacro:property name="robot_name" value="$(arg mav_name)"/>
+      <xacro:picoflexx_macro
+        namespace="${namespace}/picoflexx"
+        parent_link="${namespace}/base_link"
+        enable_cameras="true"
+        enable_depth="true"
+        enable_ground_truth="true">
+        <origin xyz="0.1 0 -0.05" rpy="1.57 1.57 0" />
+      </xacro:picoflexx_macro> -->
+
+      <!-- Add a BlackFly camera in the front -->
+      <xacro:camera_macro
+      namespace="${namespace}"
+      parent_link="${namespace}/base_link"
+      camera_suffix="blackfly"
+      frame_rate="${frame_rate}"
+      horizontal_fov="2"
+      image_width="1440"
+      image_height="1080"
+      image_format="R8G8B8"
+      min_distance="0.02"
+      max_distance="200"
+      noise_mean="0.0"
+      noise_stddev="0.007"
+      enable_visual="true">
+      <box size="0.025 0.025 0.025" />
+      <origin xyz='0.172 0 -0.023' rpy='0 0.174533 0'/>
+    </xacro:camera_macro>
+
+    </robot>
+
+
+  </model>
+</sdf>

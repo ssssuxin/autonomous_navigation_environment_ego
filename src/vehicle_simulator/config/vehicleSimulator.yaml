@@ -1,0 +1,20 @@
+vehicleSimulator:
+  ros__parameters:
+    use_gazebo_time: false
+    sensorOffsetX: 0.0
+    sensorOffsetY: 0.0
+    vehicleZ: 0.0
+    terrainVoxelSize: 0.05
+    groundHeightThre: 0.1
+    adjustZ: true
+    terrainRadiusZ: 1.0
+    minTerrainPointNumZ: 5
+    smoothRateZ: 0.5
+    adjustIncl: true
+    terrainRadiusIncl: 2.0
+    minTerrainPointNumIncl: 200
+    smoothRateIncl: 0.5
+    InclFittingThre: 0.2
+    maxIncl: 30.0
+    test_param: true
+
