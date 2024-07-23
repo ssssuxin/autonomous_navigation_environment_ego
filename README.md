@@ -1,4 +1,8 @@
-## installation  
+## Requirement
+Ubuntu20.04  
+Ros2 Foxy
+
+## Installation  
 
     git clone https://github.com/ssssuxin/autonomous_navigation_environment_ego.git  
     cd autonomous_navigation_environment_ego  
