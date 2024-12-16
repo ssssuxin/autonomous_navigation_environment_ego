@@ -1,0 +1,8 @@
+source;share/bspline_opt/hook/cmake_prefix_path.ps1
+source;share/bspline_opt/hook/cmake_prefix_path.dsv
+source;share/bspline_opt/hook/cmake_prefix_path.sh
+source;share/bspline_opt/local_setup.bash
+source;share/bspline_opt/local_setup.dsv
+source;share/bspline_opt/local_setup.ps1
+source;share/bspline_opt/local_setup.sh
+source;share/bspline_opt/local_setup.zsh

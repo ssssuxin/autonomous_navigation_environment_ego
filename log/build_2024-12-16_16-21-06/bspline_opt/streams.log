@@ -1,0 +1,23 @@
+[0.054s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt -- -j20 -l20
+[0.249s] [100%] Built target bspline_opt
+[0.264s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt -- -j20 -l20
+[0.321s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt
+[0.371s] -- Install configuration: "Release"
+[0.371s] -- Execute custom install script
+[0.371s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/lib/bspline_opt/libbspline_opt.so
+[0.371s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/package_run_dependencies/bspline_opt
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/parent_prefix_path/bspline_opt
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/ament_prefix_path.sh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/ament_prefix_path.dsv
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/path.sh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/path.dsv
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.bash
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.sh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.zsh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.dsv
+[0.372s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/package.dsv
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/packages/bspline_opt
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/cmake/bspline_optConfig.cmake
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/cmake/bspline_optConfig-version.cmake
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/package.xml
+[0.412s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt

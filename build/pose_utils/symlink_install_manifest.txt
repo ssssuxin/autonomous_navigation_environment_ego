@@ -1,0 +1,16 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/lib/pose_utils/libpose_utils.so
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/ament_index/resource_index/package_run_dependencies/pose_utils
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/ament_index/resource_index/parent_prefix_path/pose_utils
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/ament_prefix_path.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/ament_prefix_path.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/path.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/path.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.bash
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.zsh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/package.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/ament_index/resource_index/packages/pose_utils
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig.cmake
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/package.xml

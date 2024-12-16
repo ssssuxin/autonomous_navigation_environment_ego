@@ -1,0 +1,10 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/install/strip.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/install/local.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/install.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/list_install_components.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/rebuild_cache.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/edit_cache.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/test.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/local_pcl_map_provider.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/local_pcl_map_provider_uninstall.dir
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_pcl_map_provider/CMakeFiles/uninstall.dir

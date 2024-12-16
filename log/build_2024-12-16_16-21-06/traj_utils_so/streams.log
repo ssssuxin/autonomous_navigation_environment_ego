@@ -1,0 +1,23 @@
+[0.058s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so -- -j20 -l20
+[0.243s] [100%] Built target traj_utils
+[0.261s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so -- -j20 -l20
+[0.318s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so
+[0.368s] -- Install configuration: "Release"
+[0.368s] -- Execute custom install script
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/lib/traj_utils_so/libtraj_utils.so
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/ament_index/resource_index/package_run_dependencies/traj_utils_so
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/ament_index/resource_index/parent_prefix_path/traj_utils_so
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/environment/ament_prefix_path.dsv
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/environment/path.sh
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/environment/path.dsv
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/local_setup.bash
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/local_setup.sh
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/local_setup.zsh
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/local_setup.dsv
+[0.369s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/package.dsv
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/ament_index/resource_index/packages/traj_utils_so
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/cmake/traj_utils_soConfig.cmake
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/cmake/traj_utils_soConfig-version.cmake
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils_so/share/traj_utils_so/package.xml
+[0.421s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils_so

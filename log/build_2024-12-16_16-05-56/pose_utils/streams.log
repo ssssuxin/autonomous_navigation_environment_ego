@@ -1,0 +1,137 @@
+[0.057s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils
+[0.281s] -- The C compiler identification is GNU 9.4.0
+[0.281s] -- The CXX compiler identification is GNU 9.4.0
+[0.281s] -- Check for working C compiler: /usr/bin/cc
+[0.283s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.283s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.345s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.429s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.553s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.751s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.774s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.921s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.956s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.077s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.078s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.079s] -- Looking for pthread.h
+[1.148s] -- Looking for pthread.h - found
+[1.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.217s] -- Looking for pthread_create in pthreads
+[1.272s] -- Looking for pthread_create in pthreads - not found
+[1.272s] -- Looking for pthread_create in pthread
+[1.342s] -- Looking for pthread_create in pthread - found
+[1.344s] -- Found Threads: TRUE  
+[1.514s] -- Found Armadillo: /usr/lib/libarmadillo.so (found version "9.800.4") 
+[1.516s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.597s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.598s] -- Configured cppcheck include dirs: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/include
+[1.598s] -- Configured cppcheck exclude dirs and/or files: 
+[1.599s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.599s] -- Configured cpplint exclude dirs and/or files: 
+[1.599s] -- Added test 'lint_cmake' to check CMake code style
+[1.601s] -- Added test 'uncrustify' to check C / C++ code style
+[1.601s] -- Configured uncrustify additional arguments: 
+[1.601s] -- Added test 'xmllint' to check XML markup files
+[1.605s] -- Configuring done
+[1.612s] -- Generating done
+[1.614s] -- Build files have been written to: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils
+[1.625s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils
+[1.625s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils -- -j20 -l20
+[2.306s] [35m[1mScanning dependencies of target pose_utils[0m
+[2.306s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o[0m
+[3.982s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:[m[K In function ‘[01m[Karma::mat jacobianF(const colvec&, const colvec&, double)[m[K’:
+[3.982s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:320:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.983s]   320 |   double [01;35m[Kx[m[K  = X(0);
+[3.983s]       |          [01;35m[K^[m[K
+[3.983s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:321:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.983s]   321 |   double [01;35m[Ky[m[K  = X(1);
+[3.983s]       |          [01;35m[K^[m[K
+[3.983s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:322:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.983s]   322 |   double [01;35m[Kz[m[K  = X(2);
+[3.983s]       |          [01;35m[K^[m[K
+[3.983s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:326:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.984s]   326 |   double [01;35m[Kvx[m[K = X(6);
+[3.984s]       |          [01;35m[K^~[m[K
+[3.984s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:327:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvy[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.984s]   327 |   double [01;35m[Kvy[m[K = X(7);
+[3.984s]       |          [01;35m[K^~[m[K
+[3.984s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:328:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.984s]   328 |   double [01;35m[Kvz[m[K = X(8);
+[3.984s]       |          [01;35m[K^~[m[K
+[3.984s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:332:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.984s]   332 |   double [01;35m[Kwx[m[K = U(3);
+[3.984s]       |          [01;35m[K^~[m[K
+[3.987s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:[m[K In function ‘[01m[Karma::mat jacobianU(const colvec&, const colvec&, double)[m[K’:
+[3.987s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:434:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.987s]   434 |   double [01;35m[Kx[m[K  = X(0);
+[3.987s]       |          [01;35m[K^[m[K
+[3.987s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:435:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.987s]   435 |   double [01;35m[Ky[m[K  = X(1);
+[3.988s]       |          [01;35m[K^[m[K
+[3.988s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:436:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.988s]   436 |   double [01;35m[Kz[m[K  = X(2);
+[3.988s]       |          [01;35m[K^[m[K
+[3.988s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:440:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.988s]   440 |   double [01;35m[Kvx[m[K = X(6);
+[3.988s]       |          [01;35m[K^~[m[K
+[3.988s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:441:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvy[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.988s]   441 |   double [01;35m[Kvy[m[K = X(7);
+[3.988s]       |          [01;35m[K^~[m[K
+[3.988s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:442:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.988s]   442 |   double [01;35m[Kvz[m[K = X(8);
+[3.989s]       |          [01;35m[K^~[m[K
+[3.989s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:443:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kax[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.989s]   443 |   double [01;35m[Kax[m[K = U(0);
+[3.989s]       |          [01;35m[K^~[m[K
+[3.989s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:444:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kay[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.989s]   444 |   double [01;35m[Kay[m[K = U(1);
+[3.989s]       |          [01;35m[K^~[m[K
+[3.989s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:445:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.989s]   445 |   double [01;35m[Kaz[m[K = U(2);
+[3.989s]       |          [01;35m[K^~[m[K
+[3.989s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:446:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.989s]   446 |   double [01;35m[Kwx[m[K = U(3);
+[3.989s]       |          [01;35m[K^~[m[K
+[3.990s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:447:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwy[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.990s]   447 |   double [01;35m[Kwy[m[K = U(4);
+[3.990s]       |          [01;35m[K^~[m[K
+[3.990s] [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp:448:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.990s]   448 |   double [01;35m[Kwz[m[K = U(5);
+[3.990s]       |          [01;35m[K^~[m[K
+[8.853s] [100%] [32m[1mLinking CXX shared library libpose_utils.so[0m
+[9.129s] [100%] Built target pose_utils
+[9.142s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils -- -j20 -l20
+[9.186s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils
+[31.795s] -- Install configuration: "Release"
+[31.796s] -- Execute custom install script
+[31.796s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/lib/pose_utils/libpose_utils.so
+[31.796s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/ament_index/resource_index/package_run_dependencies/pose_utils
+[31.796s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/ament_index/resource_index/parent_prefix_path/pose_utils
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/ament_prefix_path.sh
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/ament_prefix_path.dsv
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/path.sh
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/environment/path.dsv
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.bash
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.sh
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.zsh
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/local_setup.dsv
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/package.dsv
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/ament_index/resource_index/packages/pose_utils
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig.cmake
+[31.797s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+[31.798s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/pose_utils/share/pose_utils/package.xml
+[31.895s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/pose_utils

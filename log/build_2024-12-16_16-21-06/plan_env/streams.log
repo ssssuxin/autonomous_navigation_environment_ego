@@ -1,0 +1,25 @@
+[0.056s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env -- -j20 -l20
+[0.245s] [ 33%] Built target obj_generator
+[0.245s] [100%] Built target plan_env
+[0.256s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env -- -j20 -l20
+[0.313s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env
+[0.363s] -- Install configuration: "Release"
+[0.363s] -- Execute custom install script
+[0.363s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/lib/plan_env/libplan_env.so
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/lib/plan_env/obj_generator
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/ament_index/resource_index/package_run_dependencies/plan_env
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/ament_index/resource_index/parent_prefix_path/plan_env
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/environment/ament_prefix_path.sh
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/environment/path.sh
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/environment/path.dsv
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/local_setup.bash
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/local_setup.sh
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/local_setup.zsh
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/local_setup.dsv
+[0.364s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/package.dsv
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/ament_index/resource_index/packages/plan_env
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/cmake/plan_envConfig.cmake
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/cmake/plan_envConfig-version.cmake
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/plan_env/share/plan_env/package.xml
+[0.389s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env

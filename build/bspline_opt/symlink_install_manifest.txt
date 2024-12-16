@@ -1,0 +1,16 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/lib/bspline_opt/libbspline_opt.so
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/package_run_dependencies/bspline_opt
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/parent_prefix_path/bspline_opt
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/ament_prefix_path.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/ament_prefix_path.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/path.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/path.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.bash
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.zsh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/package.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/packages/bspline_opt
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/cmake/bspline_optConfig.cmake
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/cmake/bspline_optConfig-version.cmake
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/package.xml

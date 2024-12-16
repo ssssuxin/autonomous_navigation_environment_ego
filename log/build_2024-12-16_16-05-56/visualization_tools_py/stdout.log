@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating visualization_tools_py.egg-info
+writing visualization_tools_py.egg-info/PKG-INFO
+writing dependency_links to visualization_tools_py.egg-info/dependency_links.txt
+writing entry points to visualization_tools_py.egg-info/entry_points.txt
+writing requirements to visualization_tools_py.egg-info/requires.txt
+writing top-level names to visualization_tools_py.egg-info/top_level.txt
+writing manifest file 'visualization_tools_py.egg-info/SOURCES.txt'
+reading manifest file 'visualization_tools_py.egg-info/SOURCES.txt'
+writing manifest file 'visualization_tools_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/python3.8/site-packages/site.py
+Creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/python3.8/site-packages/visualization-tools-py.egg-link (link to .)
+Installing realTimePlot script to /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/visualization_tools_py
+
+Installed /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py
+running symlink_data
+creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index
+creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index/resource_index
+creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index/resource_index/packages
+symbolically linking /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/resource/visualization_tools_py -> /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index/resource_index/packages
+symbolically linking /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/package.xml -> /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/visualization_tools_py

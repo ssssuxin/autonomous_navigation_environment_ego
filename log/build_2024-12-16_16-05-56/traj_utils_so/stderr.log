@@ -1,0 +1,7 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/traj_utils_so/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMultiInitPathList(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >, double)[m[K’:
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/traj_utils_so/src/planning_visualization.cpp:195:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  195 |     for ( int id=0; [01;35m[Kid<init_trajs.size()[m[K; id++ )
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K

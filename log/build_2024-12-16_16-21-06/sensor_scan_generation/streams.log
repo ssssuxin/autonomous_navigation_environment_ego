@@ -1,0 +1,26 @@
+[0.071s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation -- -j20 -l20
+[0.230s] [100%] Built target sensorScanGeneration
+[0.258s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation -- -j20 -l20
+[0.317s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation
+[0.359s] -- Install configuration: "Release"
+[0.359s] -- Execute custom install script
+[0.359s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration
+[0.359s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch
+[0.359s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch.py
+[0.359s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation//config/1.txt
+[0.359s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[0.359s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[0.360s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[0.360s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[0.448s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/sensor_scan_generation

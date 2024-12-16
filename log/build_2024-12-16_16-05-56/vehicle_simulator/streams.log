@@ -1,0 +1,218 @@
+[0.059s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/vehicle_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator
+[2.022s] -- The C compiler identification is GNU 9.4.0
+[2.022s] -- The CXX compiler identification is GNU 9.4.0
+[2.022s] -- Check for working C compiler: /usr/bin/cc
+[2.022s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.022s] -- Detecting C compiler ABI info
+[2.022s] -- Detecting C compiler ABI info - done
+[2.022s] -- Detecting C compile features
+[2.022s] -- Detecting C compile features - done
+[2.022s] -- Check for working CXX compiler: /usr/bin/c++
+[2.022s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.023s] -- Detecting CXX compiler ABI info
+[2.025s] -- Detecting CXX compiler ABI info - done
+[2.026s] -- Detecting CXX compile features
+[2.026s] -- Detecting CXX compile features - done
+[2.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.027s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.027s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.027s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.027s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.027s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.027s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.027s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.027s] -- Looking for pthread.h
+[2.027s] -- Looking for pthread.h - found
+[2.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.027s] -- Looking for pthread_create in pthreads
+[2.027s] -- Looking for pthread_create in pthreads - not found
+[2.027s] -- Looking for pthread_create in pthread
+[2.027s] -- Looking for pthread_create in pthread - found
+[2.028s] -- Found Threads: TRUE  
+[2.028s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.028s] -- Checking for module 'eigen3'
+[2.028s] --   Found eigen3, version 3.3.7
+[2.028s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.028s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.028s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.028s] -- Checking for module 'flann'
+[2.028s] --   Found flann, version 1.9.1
+[2.028s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.028s] -- The imported target "vtkParseOGLExt" references the file
+[2.028s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.028s] but this file does not exist.  Possible reasons include:
+[2.028s] * The file was deleted, renamed, or moved to another location.
+[2.028s] * An install or uninstall procedure did not complete successfully.
+[2.028s] * The installation package was faulty and contained
+[2.028s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.028s] but not all the files it references.
+[2.028s] 
+[2.028s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.028s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.029s] but this file does not exist.  Possible reasons include:
+[2.029s] * The file was deleted, renamed, or moved to another location.
+[2.029s] * An install or uninstall procedure did not complete successfully.
+[2.029s] * The installation package was faulty and contained
+[2.029s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.029s] but not all the files it references.
+[2.029s] 
+[2.029s] -- The imported target "vtk" references the file
+[2.029s]    "/usr/bin/vtk"
+[2.029s] but this file does not exist.  Possible reasons include:
+[2.029s] * The file was deleted, renamed, or moved to another location.
+[2.029s] * An install or uninstall procedure did not complete successfully.
+[2.029s] * The installation package was faulty and contained
+[2.029s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.029s] but not all the files it references.
+[2.029s] 
+[2.029s] -- The imported target "pvtk" references the file
+[2.029s]    "/usr/bin/pvtk"
+[2.030s] but this file does not exist.  Possible reasons include:
+[2.030s] * The file was deleted, renamed, or moved to another location.
+[2.030s] * An install or uninstall procedure did not complete successfully.
+[2.030s] * The installation package was faulty and contained
+[2.030s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.030s] but not all the files it references.
+[2.030s] 
+[2.030s] -- Checking for module 'libusb-1.0'
+[2.030s] --   Found libusb-1.0, version 1.0.23
+[2.030s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.030s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.030s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.030s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.031s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.031s] -- Found libusb-1.0: /usr/include  
+[2.031s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.031s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.032s] ** WARNING ** io features related to pcap will be disabled
+[2.032s] ** WARNING ** io features related to png will be disabled
+[2.032s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.038s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.039s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.046s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.060s] -- looking for PCL_COMMON
+[2.062s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.062s] -- looking for PCL_KDTREE
+[2.063s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.063s] -- looking for PCL_OCTREE
+[2.065s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.065s] -- looking for PCL_SEARCH
+[2.066s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.066s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.068s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.068s] -- looking for PCL_FILTERS
+[2.069s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.069s] -- looking for PCL_2D
+[2.070s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.070s] -- looking for PCL_GEOMETRY
+[2.070s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.070s] -- looking for PCL_IO
+[2.072s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.072s] -- looking for PCL_FEATURES
+[2.074s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.074s] -- looking for PCL_ML
+[2.075s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.076s] -- looking for PCL_SEGMENTATION
+[2.077s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.077s] -- looking for PCL_VISUALIZATION
+[2.079s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.079s] -- looking for PCL_SURFACE
+[2.081s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.081s] -- looking for PCL_REGISTRATION
+[2.082s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.083s] -- looking for PCL_KEYPOINTS
+[2.084s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.084s] -- looking for PCL_TRACKING
+[2.086s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.086s] -- looking for PCL_RECOGNITION
+[2.087s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.088s] -- looking for PCL_STEREO
+[2.089s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.090s] -- looking for PCL_APPS
+[2.091s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.092s] -- looking for PCL_IN_HAND_SCANNER
+[2.092s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.092s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.093s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.093s] -- looking for PCL_OUTOFCORE
+[2.095s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.095s] -- looking for PCL_PEOPLE
+[2.096s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.098s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[2.100s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[2.343s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[2.597s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.690s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.906s] -- Found OpenCV: /usr (found version "4.2.0") 
+[2.923s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.046s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.120s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.120s] -- Configured cppcheck include dirs: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/vehicle_simulator/include
+[3.121s] -- Configured cppcheck exclude dirs and/or files: 
+[3.174s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.175s] -- Configured cpplint exclude dirs and/or files: 
+[3.182s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.196s] -- Added test 'lint_cmake' to check CMake code style
+[3.203s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.256s] -- Added test 'uncrustify' to check C / C++ code style
+[3.256s] -- Configured uncrustify additional arguments: 
+[3.264s] -- Added test 'xmllint' to check XML markup files
+[3.269s] -- Configuring done
+[3.333s] -- Generating done
+[3.337s] -- Build files have been written to: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator
+[3.356s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/vehicle_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator
+[3.357s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator -- -j20 -l20
+[12.305s] [35m[1mScanning dependencies of target vehicleSimulator[0m
+[12.311s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicleSimulator.dir/src/vehicleSimulator.cpp.o[0m
+[46.257s] [100%] [32m[1mLinking CXX executable vehicleSimulator[0m
+[46.875s] [100%] Built target vehicleSimulator
+[46.972s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator -- -j20 -l20
+[46.990s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator
+[46.996s] -- Install configuration: "Release"
+[46.997s] -- Execute custom install script
+[46.997s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/lib/vehicle_simulator/vehicleSimulator
+[47.004s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/model_test.launch.py
+[47.012s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/new_test.launch.py
+[47.017s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_campus.launch
+[47.023s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_forest.launch
+[47.030s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_garage.launch
+[47.036s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_garage.launch.py
+[47.042s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_indoor.launch
+[47.049s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_new_garage.launch.py
+[47.055s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot.launch
+[47.061s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/system_tunnel.launch
+[47.067s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch
+[47.074s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch.py
+[47.080s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/launch/world_test.launch.py
+[47.087s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator//config/tare_gazebo_env.rviz
+[47.095s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator//config/vehicleSimulator.yaml
+[47.102s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/urdf/camera.urdf.xacro
+[47.108s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/urdf/lidar.urdf.xacro
+[47.113s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/urdf/new_robot.urdf
+[47.119s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/urdf/robot.urdf.xacro
+[47.126s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/world/campus.world
+[47.132s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/world/forest.world
+[47.138s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/world/garage.world
+[47.145s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/world/indoor.world
+[47.150s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/world/tunnel.world
+[47.157s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/ament_index/resource_index/package_run_dependencies/vehicle_simulator
+[47.164s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/ament_index/resource_index/parent_prefix_path/vehicle_simulator
+[47.170s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.sh
+[47.176s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.dsv
+[47.183s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/environment/path.sh
+[47.189s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/environment/path.dsv
+[47.196s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/local_setup.bash
+[47.202s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/local_setup.sh
+[47.209s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/local_setup.zsh
+[47.215s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/local_setup.dsv
+[47.221s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/package.dsv
+[47.227s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/ament_index/resource_index/packages/vehicle_simulator
+[47.234s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig.cmake
+[47.240s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig-version.cmake
+[47.247s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/vehicle_simulator/share/vehicle_simulator/package.xml
+[47.255s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/vehicle_simulator

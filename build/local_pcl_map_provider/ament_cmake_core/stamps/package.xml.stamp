@@ -1,0 +1,19 @@
+<package>
+  <name>local_pcl_map_provider</name>
+  <version>0.0.1</version>
+  <description>local_pcl_map_provider1</description>
+  <license>BSD</license>
+
+  <author>Huazhang Zhu</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <!-- <build_depend>rclcpp,std_msgs,sensor_msgs,pcl_ros,nav_msgs,visualization_msgs</build_depend> -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+<!-- 这个是测试依赖项，不知道具体什么用 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  <!-- 导出构建类型，要么cmake，要么python -->
+</package>

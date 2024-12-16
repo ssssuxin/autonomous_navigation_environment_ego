@@ -1,0 +1,1 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new/ament_cmake_core/newConfig-version.cmake

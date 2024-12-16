@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from traj_utils/msg/MultiBsplines.msg
+// generated code does not contain a copyright notice
+
+#include "traj_utils/msg/Bspline.idl"
+
+module traj_utils {
+  module msg {
+    struct MultiBsplines {
+      int32 drone_id_from;
+
+      sequence<traj_utils::msg::Bspline> traj;
+    };
+  };
+};

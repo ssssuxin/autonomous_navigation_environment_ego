@@ -1,0 +1,1 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node/ament_cmake_core/local_sensing_nodeConfig.cmake

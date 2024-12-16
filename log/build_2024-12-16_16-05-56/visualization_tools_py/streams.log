@@ -1,0 +1,25 @@
+[0.750s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py': PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/build --no-deps symlink_data
+[2.287s] running develop
+[2.287s] running egg_info
+[2.287s] creating visualization_tools_py.egg-info
+[2.287s] writing visualization_tools_py.egg-info/PKG-INFO
+[2.287s] writing dependency_links to visualization_tools_py.egg-info/dependency_links.txt
+[2.287s] writing entry points to visualization_tools_py.egg-info/entry_points.txt
+[2.287s] writing requirements to visualization_tools_py.egg-info/requires.txt
+[2.288s] writing top-level names to visualization_tools_py.egg-info/top_level.txt
+[2.288s] writing manifest file 'visualization_tools_py.egg-info/SOURCES.txt'
+[2.288s] reading manifest file 'visualization_tools_py.egg-info/SOURCES.txt'
+[2.288s] writing manifest file 'visualization_tools_py.egg-info/SOURCES.txt'
+[2.288s] running build_ext
+[2.288s] Creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/python3.8/site-packages/site.py
+[2.288s] Creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/python3.8/site-packages/visualization-tools-py.egg-link (link to .)
+[2.289s] Installing realTimePlot script to /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/visualization_tools_py
+[2.290s] 
+[2.290s] Installed /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py
+[2.290s] running symlink_data
+[2.290s] creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index
+[2.290s] creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index/resource_index
+[2.290s] creating /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index/resource_index/packages
+[2.290s] symbolically linking /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/resource/visualization_tools_py -> /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/ament_index/resource_index/packages
+[2.290s] symbolically linking /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/package.xml -> /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/share/visualization_tools_py
+[2.300s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py' returned '0': PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/visualization_tools_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/visualization_tools_py/build --no-deps symlink_data

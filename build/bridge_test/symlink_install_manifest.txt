@@ -1,0 +1,17 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/lib/bridge_test/subscriber
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/lib/bridge_test/subscriber_bspline
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/ament_index/resource_index/package_run_dependencies/bridge_test
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/ament_index/resource_index/parent_prefix_path/bridge_test
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/environment/ament_prefix_path.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/environment/ament_prefix_path.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/environment/path.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/environment/path.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/local_setup.bash
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/local_setup.sh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/local_setup.zsh
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/local_setup.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/package.dsv
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/ament_index/resource_index/packages/bridge_test
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/cmake/bridge_testConfig.cmake
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/cmake/bridge_testConfig-version.cmake
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bridge_test/share/bridge_test/package.xml

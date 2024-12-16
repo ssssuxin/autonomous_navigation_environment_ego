@@ -1,0 +1,189 @@
+[0.056s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/map_generator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator
+[0.283s] -- The C compiler identification is GNU 9.4.0
+[0.283s] -- The CXX compiler identification is GNU 9.4.0
+[0.283s] -- Check for working C compiler: /usr/bin/cc
+[0.283s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.283s] -- Detecting C compiler ABI info
+[0.329s] -- Detecting C compiler ABI info - done
+[0.341s] -- Detecting C compile features
+[0.341s] -- Detecting C compile features - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.422s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.570s] -- Detecting CXX compile features
+[0.570s] -- Detecting CXX compile features - done
+[0.573s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.600s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.600s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.768s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.790s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.845s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.923s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.955s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.111s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.113s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.114s] -- Looking for pthread.h
+[1.187s] -- Looking for pthread.h - found
+[1.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.265s] -- Looking for pthread_create in pthreads
+[1.314s] -- Looking for pthread_create in pthreads - not found
+[1.314s] -- Looking for pthread_create in pthread
+[1.377s] -- Looking for pthread_create in pthread - found
+[1.378s] -- Found Threads: TRUE  
+[1.553s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.593s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.677s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.946s] -- Checking for module 'eigen3'
+[1.958s] --   Found eigen3, version 3.3.7
+[1.991s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.991s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.048s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.085s] -- Checking for module 'flann'
+[2.100s] --   Found flann, version 1.9.1
+[2.155s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.208s] -- The imported target "vtkParseOGLExt" references the file
+[2.208s]    "/usr/bin/vtkParseOGLExt-7.1"
+[2.208s] but this file does not exist.  Possible reasons include:
+[2.208s] * The file was deleted, renamed, or moved to another location.
+[2.209s] * An install or uninstall procedure did not complete successfully.
+[2.209s] * The installation package was faulty and contained
+[2.209s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.209s] but not all the files it references.
+[2.209s] 
+[2.210s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.210s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.210s] but this file does not exist.  Possible reasons include:
+[2.210s] * The file was deleted, renamed, or moved to another location.
+[2.210s] * An install or uninstall procedure did not complete successfully.
+[2.210s] * The installation package was faulty and contained
+[2.210s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.210s] but not all the files it references.
+[2.210s] 
+[2.210s] -- The imported target "vtk" references the file
+[2.211s]    "/usr/bin/vtk"
+[2.211s] but this file does not exist.  Possible reasons include:
+[2.211s] * The file was deleted, renamed, or moved to another location.
+[2.211s] * An install or uninstall procedure did not complete successfully.
+[2.211s] * The installation package was faulty and contained
+[2.211s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.211s] but not all the files it references.
+[2.211s] 
+[2.211s] -- The imported target "pvtk" references the file
+[2.211s]    "/usr/bin/pvtk"
+[2.211s] but this file does not exist.  Possible reasons include:
+[2.211s] * The file was deleted, renamed, or moved to another location.
+[2.211s] * An install or uninstall procedure did not complete successfully.
+[2.211s] * The installation package was faulty and contained
+[2.211s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[2.211s] but not all the files it references.
+[2.211s] 
+[2.232s] -- Checking for module 'libusb-1.0'
+[2.249s] --   Found libusb-1.0, version 1.0.23
+[2.295s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.410s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.410s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.529s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.529s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.529s] ** WARNING ** io features related to pcap will be disabled
+[2.530s] ** WARNING ** io features related to png will be disabled
+[2.559s] -- Found libusb-1.0: /usr/include  
+[2.559s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.579s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.600s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.635s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.635s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.647s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.662s] -- looking for PCL_COMMON
+[2.663s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.664s] -- looking for PCL_KDTREE
+[2.665s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.665s] -- looking for PCL_OCTREE
+[2.667s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.667s] -- looking for PCL_SEARCH
+[2.668s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.669s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.670s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.670s] -- looking for PCL_FILTERS
+[2.671s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.672s] -- looking for PCL_2D
+[2.672s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.673s] -- looking for PCL_GEOMETRY
+[2.673s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.673s] -- looking for PCL_IO
+[2.675s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.675s] -- looking for PCL_FEATURES
+[2.677s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.677s] -- looking for PCL_ML
+[2.679s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.679s] -- looking for PCL_SEGMENTATION
+[2.681s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.681s] -- looking for PCL_VISUALIZATION
+[2.683s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.685s] -- looking for PCL_SURFACE
+[2.687s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.687s] -- looking for PCL_REGISTRATION
+[2.689s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.691s] -- looking for PCL_KEYPOINTS
+[2.695s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.696s] -- looking for PCL_TRACKING
+[2.697s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.698s] -- looking for PCL_RECOGNITION
+[2.699s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.700s] -- looking for PCL_STEREO
+[2.702s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.702s] -- looking for PCL_APPS
+[2.704s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.706s] -- looking for PCL_IN_HAND_SCANNER
+[2.706s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.707s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.707s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.708s] -- looking for PCL_OUTOFCORE
+[2.710s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.711s] -- looking for PCL_PEOPLE
+[2.713s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.715s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[2.763s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.854s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.855s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.855s] -- Configured cppcheck include dirs: 
+[2.855s] -- Configured cppcheck exclude dirs and/or files: 
+[2.859s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.860s] -- Configured cpplint exclude dirs and/or files: 
+[2.860s] -- Added test 'lint_cmake' to check CMake code style
+[2.861s] -- Added test 'uncrustify' to check C / C++ code style
+[2.861s] -- Configured uncrustify additional arguments: 
+[2.861s] -- Added test 'xmllint' to check XML markup files
+[2.869s] -- Configuring done
+[2.939s] -- Generating done
+[2.942s] -- Build files have been written to: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator
+[2.972s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/map_generator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator
+[2.973s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator -- -j20 -l20
+[7.285s] [35m[1mScanning dependencies of target random_forest[0m
+[7.285s] [ 50%] [32mBuilding CXX object CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o[0m
+[44.680s] [100%] [32m[1mLinking CXX executable random_forest[0m
+[45.586s] [100%] Built target random_forest
+[45.618s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator -- -j20 -l20
+[45.637s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator
+[45.644s] -- Install configuration: "Release"
+[45.644s] -- Execute custom install script
+[45.645s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/lib/map_generator/random_forest
+[45.652s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/ament_index/resource_index/package_run_dependencies/map_generator
+[45.659s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/ament_index/resource_index/parent_prefix_path/map_generator
+[45.666s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/ament_prefix_path.sh
+[45.673s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/ament_prefix_path.dsv
+[45.680s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/path.sh
+[45.687s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/path.dsv
+[45.694s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.bash
+[45.701s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.sh
+[45.708s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.zsh
+[45.715s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.dsv
+[45.722s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/package.dsv
+[45.729s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/ament_index/resource_index/packages/map_generator
+[45.736s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/cmake/map_generatorConfig.cmake
+[45.742s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/cmake/map_generatorConfig-version.cmake
+[45.749s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/package.xml
+[45.757s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator

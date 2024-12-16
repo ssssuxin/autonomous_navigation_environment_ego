@@ -1,0 +1,11 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_manage/src/traj_server.cpp:29:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktraj_utils::msg::Bspline_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   29 | void bsplineCallback(traj_utils::msg::Bspline::ConstPtr msg[01;35m[K)[m[K
+      |                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils/include/traj_utils/msg/bspline.hpp:7[m[K,
+                 from [01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_manage/src/traj_server.cpp:4[m[K:
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/traj_utils/include/traj_utils/msg/detail/bspline__struct.hpp:180:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  180 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K

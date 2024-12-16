@@ -1,0 +1,162 @@
+[0.064s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/local_sensing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node
+[2.460s] -- The C compiler identification is GNU 9.4.0
+[2.460s] -- The CXX compiler identification is GNU 9.4.0
+[2.460s] -- Check for working C compiler: /usr/bin/cc
+[2.460s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.460s] -- Detecting C compiler ABI info
+[2.460s] -- Detecting C compiler ABI info - done
+[2.460s] -- Detecting C compile features
+[2.461s] -- Detecting C compile features - done
+[2.461s] -- Check for working CXX compiler: /usr/bin/c++
+[2.461s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.461s] -- Detecting CXX compiler ABI info
+[2.461s] -- Detecting CXX compiler ABI info - done
+[2.461s] -- Detecting CXX compile features
+[2.461s] -- Detecting CXX compile features - done
+[2.461s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.461s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.461s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.461s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.461s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.461s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.461s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.461s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.461s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.461s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.461s] -- Looking for pthread.h
+[2.461s] -- Looking for pthread.h - found
+[2.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.461s] -- Looking for pthread_create in pthreads
+[2.461s] -- Looking for pthread_create in pthreads - not found
+[2.461s] -- Looking for pthread_create in pthread
+[2.461s] -- Looking for pthread_create in pthread - found
+[2.462s] -- Found Threads: TRUE  
+[2.462s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[2.462s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.462s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.873s] -- Checking for module 'eigen3'
+[2.895s] --   Found eigen3, version 3.3.7
+[2.948s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.948s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[3.022s] -- Checking for module 'flann'
+[3.038s] --   Found flann, version 1.9.1
+[3.095s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.180s] -- The imported target "vtkParseOGLExt" references the file
+[3.180s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.180s] but this file does not exist.  Possible reasons include:
+[3.180s] * The file was deleted, renamed, or moved to another location.
+[3.181s] * An install or uninstall procedure did not complete successfully.
+[3.181s] * The installation package was faulty and contained
+[3.181s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.181s] but not all the files it references.
+[3.181s] 
+[3.181s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.181s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.181s] but this file does not exist.  Possible reasons include:
+[3.181s] * The file was deleted, renamed, or moved to another location.
+[3.181s] * An install or uninstall procedure did not complete successfully.
+[3.181s] * The installation package was faulty and contained
+[3.182s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.182s] but not all the files it references.
+[3.182s] 
+[3.182s] -- The imported target "vtk" references the file
+[3.182s]    "/usr/bin/vtk"
+[3.182s] but this file does not exist.  Possible reasons include:
+[3.182s] * The file was deleted, renamed, or moved to another location.
+[3.182s] * An install or uninstall procedure did not complete successfully.
+[3.182s] * The installation package was faulty and contained
+[3.182s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.182s] but not all the files it references.
+[3.182s] 
+[3.183s] -- The imported target "pvtk" references the file
+[3.183s]    "/usr/bin/pvtk"
+[3.183s] but this file does not exist.  Possible reasons include:
+[3.183s] * The file was deleted, renamed, or moved to another location.
+[3.183s] * An install or uninstall procedure did not complete successfully.
+[3.183s] * The installation package was faulty and contained
+[3.183s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.183s] but not all the files it references.
+[3.183s] 
+[3.253s] -- Checking for module 'libusb-1.0'
+[3.273s] --   Found libusb-1.0, version 1.0.23
+[3.319s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.377s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.452s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.470s] -- Found libusb-1.0: /usr/include  
+[3.478s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.485s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[3.518s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[3.518s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[3.524s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[3.537s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.538s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.539s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.541s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.542s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.544s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.544s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[3.547s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[3.549s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.551s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.552s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.554s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.556s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.558s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.560s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.563s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.565s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.567s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.570s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.572s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.574s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[3.586s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[3.587s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.589s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.823s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.890s] -- Found quadrotor_msgs: 0.0.0 (/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[3.972s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.094s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.096s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.097s] -- Configured cppcheck include dirs: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/local_sensing/.
+[4.097s] -- Configured cppcheck exclude dirs and/or files: 
+[4.099s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.099s] -- Configured cpplint exclude dirs and/or files: 
+[4.100s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.101s] -- Added test 'lint_cmake' to check CMake code style
+[4.102s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.104s] -- Added test 'uncrustify' to check C / C++ code style
+[4.104s] -- Configured uncrustify additional arguments: 
+[4.105s] -- Added test 'xmllint' to check XML markup files
+[4.138s] -- Configuring done
+[4.281s] -- Generating done
+[4.283s] -- Build files have been written to: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node
+[4.302s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/local_sensing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node
+[4.313s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node -- -j20 -l20
+[6.100s] [35m[1mScanning dependencies of target pcl_render_node[0m
+[6.101s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o[0m
+[18.574s] [100%] [32m[1mLinking CXX executable pcl_render_node[0m
+[20.028s] [100%] Built target pcl_render_node
+[20.036s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node -- -j20 -l20
+[20.053s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node
+[20.058s] -- Install configuration: "Release"
+[20.058s] -- Execute custom install script
+[20.058s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/lib/local_sensing_node/pcl_render_node
+[20.064s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/ament_index/resource_index/package_run_dependencies/local_sensing_node
+[20.070s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/ament_index/resource_index/parent_prefix_path/local_sensing_node
+[20.075s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/environment/ament_prefix_path.sh
+[20.081s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/environment/ament_prefix_path.dsv
+[20.086s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/environment/path.sh
+[20.091s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/environment/path.dsv
+[20.097s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/local_setup.bash
+[20.102s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/local_setup.sh
+[20.107s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/local_setup.zsh
+[20.113s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/local_setup.dsv
+[20.119s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/package.dsv
+[20.124s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/ament_index/resource_index/packages/local_sensing_node
+[20.129s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig.cmake
+[20.135s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/cmake/local_sensing_nodeConfig-version.cmake
+[20.140s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/local_sensing_node/share/local_sensing_node/package.xml
+[20.147s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/local_sensing_node

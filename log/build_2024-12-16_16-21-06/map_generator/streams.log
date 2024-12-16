@@ -1,0 +1,23 @@
+[0.066s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator -- -j20 -l20
+[0.235s] [100%] Built target random_forest
+[0.258s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator -- -j20 -l20
+[0.317s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator
+[0.361s] -- Install configuration: "Release"
+[0.361s] -- Execute custom install script
+[0.361s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/lib/map_generator/random_forest
+[0.361s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/ament_index/resource_index/package_run_dependencies/map_generator
+[0.361s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/ament_index/resource_index/parent_prefix_path/map_generator
+[0.361s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/ament_prefix_path.sh
+[0.361s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/ament_prefix_path.dsv
+[0.361s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/path.sh
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/environment/path.dsv
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.bash
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.sh
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.zsh
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/local_setup.dsv
+[0.362s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/package.dsv
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/ament_index/resource_index/packages/map_generator
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/cmake/map_generatorConfig.cmake
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/cmake/map_generatorConfig-version.cmake
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/map_generator/share/map_generator/package.xml
+[0.430s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator

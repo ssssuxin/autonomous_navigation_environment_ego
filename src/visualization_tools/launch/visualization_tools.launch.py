@@ -33,8 +33,8 @@ def generate_launch_description():
                     {'show_public_param': show_public_param},],
         remappings=[
         # 重映射 position_cmd 话题
-            # ('/registered_scan', "/pcl_scan_at_map"),
-            # ('/state_estimation', "/drone_0_visual_slam/odom"),
+            ('/registered_scan', "/pcl_scan_at_map"),
+            ('/state_estimation', "/drone_0_visual_slam/odom"),
             ('/trajectory', "/trajectory_color"),
             # 重映射 planning/bspline 话题
             # ('planning/bspline', "/drone_"+drone_id_+"_planning/bspline"),

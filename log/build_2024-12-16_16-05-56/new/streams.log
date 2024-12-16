@@ -1,0 +1,78 @@
+[0.063s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/new -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new
+[2.502s] -- The C compiler identification is GNU 9.4.0
+[2.502s] -- The CXX compiler identification is GNU 9.4.0
+[2.503s] -- Check for working C compiler: /usr/bin/cc
+[2.503s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.503s] -- Detecting C compiler ABI info
+[2.503s] -- Detecting C compiler ABI info - done
+[2.503s] -- Detecting C compile features
+[2.503s] -- Detecting C compile features - done
+[2.504s] -- Check for working CXX compiler: /usr/bin/c++
+[2.504s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.504s] -- Detecting CXX compiler ABI info
+[2.504s] -- Detecting CXX compiler ABI info - done
+[2.504s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.505s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.505s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.506s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.506s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.506s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.506s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.507s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.508s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.508s] -- Looking for pthread.h
+[2.508s] -- Looking for pthread.h - found
+[2.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.510s] -- Looking for pthread_create in pthreads
+[2.510s] -- Looking for pthread_create in pthreads - not found
+[2.510s] -- Looking for pthread_create in pthread
+[2.510s] -- Looking for pthread_create in pthread - found
+[2.511s] -- Found Threads: TRUE  
+[2.511s] -- Found quadrotor_msgs: 0.0.0 (/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[2.511s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.511s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.511s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.511s] -- Configured cppcheck include dirs: 
+[2.512s] -- Configured cppcheck exclude dirs and/or files: 
+[2.512s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.512s] -- Configured cpplint exclude dirs and/or files: 
+[2.512s] -- Added test 'lint_cmake' to check CMake code style
+[2.512s] -- Added test 'uncrustify' to check C / C++ code style
+[2.512s] -- Configured uncrustify additional arguments: 
+[2.512s] -- Added test 'xmllint' to check XML markup files
+[2.512s] -- Configuring done
+[2.512s] -- Generating done
+[2.512s] -- Build files have been written to: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new
+[2.522s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/new -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new
+[2.524s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new -- -j20 -l20
+[4.308s] [35m[1mScanning dependencies of target testpub[0m
+[4.308s] [ 50%] [32mBuilding CXX object CMakeFiles/testpub.dir/src/testpub.cpp.o[0m
+[5.915s] [100%] [32m[1mLinking CXX executable testpub[0m
+[6.076s] [100%] Built target testpub
+[6.090s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new -- -j20 -l20
+[6.117s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new
+[12.006s] -- Install configuration: ""
+[12.009s] -- Execute custom install script
+[12.010s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/lib/new/testpub
+[12.010s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/ament_index/resource_index/package_run_dependencies/new
+[12.010s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/ament_index/resource_index/parent_prefix_path/new
+[12.010s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/ament_prefix_path.sh
+[12.010s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/ament_prefix_path.dsv
+[12.011s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/path.sh
+[12.011s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/path.dsv
+[12.011s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.bash
+[12.011s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.sh
+[12.011s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.zsh
+[12.013s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.dsv
+[12.014s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/package.dsv
+[12.014s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/ament_index/resource_index/packages/new
+[12.014s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/cmake/newConfig.cmake
+[12.014s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/cmake/newConfig-version.cmake
+[12.014s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/package.xml
+[12.022s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/new

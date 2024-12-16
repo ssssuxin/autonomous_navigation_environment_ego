@@ -1,0 +1,1 @@
+/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs/ament_cmake_environment_hooks/local_setup.zsh

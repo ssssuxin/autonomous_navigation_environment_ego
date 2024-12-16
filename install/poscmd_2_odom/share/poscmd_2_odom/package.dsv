@@ -1,0 +1,8 @@
+source;share/poscmd_2_odom/hook/cmake_prefix_path.ps1
+source;share/poscmd_2_odom/hook/cmake_prefix_path.dsv
+source;share/poscmd_2_odom/hook/cmake_prefix_path.sh
+source;share/poscmd_2_odom/local_setup.bash
+source;share/poscmd_2_odom/local_setup.dsv
+source;share/poscmd_2_odom/local_setup.ps1
+source;share/poscmd_2_odom/local_setup.sh
+source;share/poscmd_2_odom/local_setup.zsh

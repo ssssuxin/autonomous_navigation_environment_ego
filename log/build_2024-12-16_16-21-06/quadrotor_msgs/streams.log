@@ -1,0 +1,92 @@
+[0.053s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs -- -j20 -l20
+[0.256s] [  3%] Built target quadrotor_msgs__cpp
+[0.256s] [ 12%] Built target quadrotor_msgs__rosidl_generator_c
+[0.256s] [ 22%] Built target quadrotor_msgs__rosidl_typesupport_introspection_cpp
+[0.256s] [ 32%] Built target quadrotor_msgs__rosidl_typesupport_cpp
+[0.256s] [ 41%] Built target quadrotor_msgs__rosidl_typesupport_c
+[0.256s] [ 51%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_cpp
+[0.256s] [ 61%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c
+[0.257s] [ 70%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c
+[0.257s] [ 70%] Built target quadrotor_msgs
+[0.257s] [ 74%] Built target quadrotor_msgs__py
+[0.257s] [ 80%] Built target quadrotor_msgs__python
+[0.257s] [ 93%] Built target quadrotor_msgs__rosidl_typesupport_c__pyext
+[0.257s] [ 93%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.257s] [100%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c__pyext
+[0.264s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs -- -j20 -l20
+[0.320s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs
+[0.363s] -- Install configuration: ""
+[0.363s] -- Execute custom install script
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/ament_index/resource_index/rosidl_interfaces/quadrotor_msgs
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__functions.h
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__struct.h
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__type_support.h
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/position_command.h
+[0.364s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.sh
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.dsv
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_c.h
+[0.365s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_c.h
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__builder.hpp
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__struct.hpp
+[0.366s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__traits.hpp
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__type_support.hpp
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/position_command.hpp
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/include/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_cpp.hpp
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.sh
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.dsv
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages/quadrotor_msgs/__init__.py
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages/quadrotor_msgs/msg/__init__.py
+[0.367s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages/quadrotor_msgs/msg/_position_command.py
+[0.368s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.368s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__python.so
+[0.369s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.idl
+[0.370s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.msg
+[0.371s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/ament_index/resource_index/package_run_dependencies/quadrotor_msgs
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/ament_index/resource_index/parent_prefix_path/quadrotor_msgs
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.sh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.dsv
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.sh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.dsv
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.bash
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.sh
+[0.372s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.zsh
+[0.373s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.dsv
+[0.373s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/package.dsv
+[0.373s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/ament_index/resource_index/packages/quadrotor_msgs
+[0.373s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake-extras.cmake
+[0.373s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.374s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig.cmake
+[0.375s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig-version.cmake
+[0.375s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/package.xml
+[0.375s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_c.so
+[0.375s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_c.so
+[0.375s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_c.so
+[0.375s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_cpp.so
+[0.376s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_cpp.so
+[0.400s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_generator_cExport.cmake
+[0.401s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.401s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport.cmake
+[0.401s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.401s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_generator_cppExport.cmake
+[0.402s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.402s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.402s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport.cmake
+[0.402s] -- Up-to-date: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.498s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs

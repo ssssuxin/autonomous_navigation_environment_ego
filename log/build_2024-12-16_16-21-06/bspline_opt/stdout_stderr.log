@@ -1,0 +1,19 @@
+[100%] Built target bspline_opt
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/lib/bspline_opt/libbspline_opt.so
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/package_run_dependencies/bspline_opt
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/parent_prefix_path/bspline_opt
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/path.sh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/environment/path.dsv
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.bash
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.sh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.zsh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/local_setup.dsv
+-- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/package.dsv
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/ament_index/resource_index/packages/bspline_opt
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/cmake/bspline_optConfig.cmake
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/cmake/bspline_optConfig-version.cmake
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/bspline_opt/share/bspline_opt/package.xml

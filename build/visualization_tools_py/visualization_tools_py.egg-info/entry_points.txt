@@ -1,0 +1,3 @@
+[console_scripts]
+realTimePlot = visualization_tools_py.realTimePlot:main
+

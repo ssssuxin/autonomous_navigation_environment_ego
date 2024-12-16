@@ -1,0 +1,2 @@
+source;share/odom_visualization/environment/ament_prefix_path.sh
+source;share/odom_visualization/environment/path.sh

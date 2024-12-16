@@ -1,0 +1,19 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/obj_predictor.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::ObjHistory::poseCallback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/obj_predictor.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::__cxx11::list<Eigen::Matrix<double, 4, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   57 |   if ([01;35m[Khistory_.size() > queue_size_[m[K) history_.pop_front();
+      |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/grid_map.cpp:[m[K In member function ‘[01m[Kvoid GridMap::initMap(std::shared_ptr<rclcpp::Node>&)[m[K’:
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/grid_map.cpp:124:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  124 |     for (int i = 0; [01;35m[Ki < pointCloudVector.size()[m[K; i++)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/grid_map.cpp:[m[K In member function ‘[01m[Kvoid GridMap::cloudCallback_lidar(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/grid_map.cpp:864:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  864 |   for(int i=0;[01;35m[Ki<pointCloudVector.size()[m[K;i++)
+      |               [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/grid_map.cpp:[m[K In member function ‘[01m[Kvoid GridMap::cloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_env/src/grid_map.cpp:927:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  927 |   for(int i=0;[01;35m[Ki<pointCloudVector.size()[m[K;i++)
+      |               [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K

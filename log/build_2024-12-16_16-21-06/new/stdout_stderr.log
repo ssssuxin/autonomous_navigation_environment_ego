@@ -1,0 +1,19 @@
+[100%] Built target testpub
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/lib/new/testpub
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/ament_index/resource_index/package_run_dependencies/new
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/ament_index/resource_index/parent_prefix_path/new
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/path.sh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/environment/path.dsv
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.bash
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.sh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.zsh
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/local_setup.dsv
+-- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/package.dsv
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/ament_index/resource_index/packages/new
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/cmake/newConfig.cmake
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/cmake/newConfig-version.cmake
+-- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/new/share/new/package.xml

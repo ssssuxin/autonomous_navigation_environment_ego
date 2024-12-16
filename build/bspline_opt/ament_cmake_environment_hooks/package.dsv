@@ -1,0 +1,4 @@
+source;share/bspline_opt/local_setup.bash
+source;share/bspline_opt/local_setup.dsv
+source;share/bspline_opt/local_setup.sh
+source;share/bspline_opt/local_setup.zsh

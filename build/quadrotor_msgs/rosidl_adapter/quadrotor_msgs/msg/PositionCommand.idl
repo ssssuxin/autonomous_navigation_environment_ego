@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quadrotor_msgs/msg/PositionCommand.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module quadrotor_msgs {
+  module msg {
+    typedef double double__3[3];
+    module PositionCommand_Constants {
+      const uint8 TRAJECTORY_STATUS_EMPTY = 0;
+      const uint8 TRAJECTORY_STATUS_READY = 1;
+      const uint8 TRAJECTORY_STATUS_COMPLETED = 3;
+      const uint8 TRAJECTROY_STATUS_ABORT = 4;
+      const uint8 TRAJECTORY_STATUS_ILLEGAL_START = 5;
+      const uint8 TRAJECTORY_STATUS_ILLEGAL_FINAL = 6;
+      const uint8 TRAJECTORY_STATUS_IMPOSSIBLE = 7;
+    };
+    struct PositionCommand {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Point position;
+
+      geometry_msgs::msg::Vector3 velocity;
+
+      geometry_msgs::msg::Vector3 acceleration;
+
+      double yaw;
+
+      double yaw_dot;
+
+      double__3 kx;
+
+      double__3 kv;
+
+      uint32 trajectory_id;
+
+      @verbatim (language="comment", text=
+        " Its ID number will start from 1, allowing you comparing it with 0.")
+      uint8 trajectory_flag;
+    };
+  };
+};

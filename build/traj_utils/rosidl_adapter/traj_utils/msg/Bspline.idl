@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from traj_utils/msg/Bspline.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module traj_utils {
+  module msg {
+    struct Bspline {
+      int32 drone_id;
+
+      int32 order;
+
+      int64 traj_id;
+
+      builtin_interfaces::msg::Time start_time;
+
+      sequence<double> knots;
+
+      sequence<geometry_msgs::msg::Point> pos_pts;
+
+      sequence<double> yaw_pts;
+
+      double yaw_dt;
+    };
+  };
+};

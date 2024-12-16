@@ -1,0 +1,26 @@
+[0.074s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis -- -j20 -l20
+[0.228s] [100%] Built target terrainAnalysis
+[0.258s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis -- -j20 -l20
+[0.321s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis
+[0.361s] -- Install configuration: "Release"
+[0.361s] -- Execute custom install script
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch.py
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis//config/terrain_analysis.yaml
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[0.362s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[0.363s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[0.363s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[0.363s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[0.365s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/package.dsv
+[0.370s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[0.371s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[0.371s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[0.371s] -- Up-to-date symlink: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/terrain_analysis/share/terrain_analysis/package.xml
+[0.475s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/terrain_analysis

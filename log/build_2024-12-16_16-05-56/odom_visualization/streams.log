@@ -1,0 +1,85 @@
+[0.061s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/odom_visualization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization
+[2.505s] -- The C compiler identification is GNU 9.4.0
+[2.505s] -- The CXX compiler identification is GNU 9.4.0
+[2.505s] -- Check for working C compiler: /usr/bin/cc
+[2.505s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.505s] -- Detecting C compiler ABI info
+[2.505s] -- Detecting C compiler ABI info - done
+[2.505s] -- Detecting C compile features
+[2.505s] -- Detecting C compile features - done
+[2.505s] -- Check for working CXX compiler: /usr/bin/c++
+[2.505s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.505s] -- Detecting CXX compiler ABI info
+[2.506s] -- Detecting CXX compiler ABI info - done
+[2.506s] -- Detecting CXX compile features
+[2.506s] -- Detecting CXX compile features - done
+[2.506s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.506s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.506s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.506s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.506s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.506s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.506s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.507s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.507s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.507s] -- Looking for pthread.h
+[2.507s] -- Looking for pthread.h - found
+[2.507s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.507s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.507s] -- Looking for pthread_create in pthreads
+[2.507s] -- Looking for pthread_create in pthreads - not found
+[2.507s] -- Looking for pthread_create in pthread
+[2.507s] -- Looking for pthread_create in pthread - found
+[2.507s] -- Found Threads: TRUE  
+[2.507s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.508s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.508s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.508s] -- Found quadrotor_msgs: 0.0.0 (/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[2.508s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[2.548s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.756s] -- Found Armadillo: /usr/lib/libarmadillo.so (found version "9.800.4") 
+[2.762s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.867s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.868s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.869s] -- Configured cppcheck include dirs: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/odom_visualization/include
+[2.869s] -- Configured cppcheck exclude dirs and/or files: 
+[2.870s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.870s] -- Configured cpplint exclude dirs and/or files: 
+[2.871s] -- Added test 'lint_cmake' to check CMake code style
+[2.872s] -- Added test 'uncrustify' to check C / C++ code style
+[2.872s] -- Configured uncrustify additional arguments: 
+[2.872s] -- Added test 'xmllint' to check XML markup files
+[2.879s] -- Configuring done
+[2.899s] -- Generating done
+[2.901s] -- Build files have been written to: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization
+[2.921s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/uav_simulator/Utils/odom_visualization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization
+[2.922s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization -- -j20 -l20
+[4.425s] [35m[1mScanning dependencies of target odom_visualization[0m
+[4.427s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o[0m
+[27.795s] [100%] [32m[1mLinking CXX executable odom_visualization[0m
+[27.970s] [100%] Built target odom_visualization
+[27.979s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization -- -j20 -l20
+[27.994s] Invoking command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization
+[27.999s] -- Install configuration: "Release"
+[27.999s] -- Execute custom install script
+[27.999s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/lib/odom_visualization/odom_visualization
+[28.005s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization//meshes/hummingbird.mesh
+[28.009s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/ament_index/resource_index/package_run_dependencies/odom_visualization
+[28.014s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/ament_index/resource_index/parent_prefix_path/odom_visualization
+[28.019s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/environment/ament_prefix_path.sh
+[28.023s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/environment/ament_prefix_path.dsv
+[28.028s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/environment/path.sh
+[28.033s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/environment/path.dsv
+[28.037s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/local_setup.bash
+[28.042s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/local_setup.sh
+[28.046s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/local_setup.zsh
+[28.051s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/local_setup.dsv
+[28.055s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/package.dsv
+[28.060s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/ament_index/resource_index/packages/odom_visualization
+[28.064s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/cmake/odom_visualizationConfig.cmake
+[28.069s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/cmake/odom_visualizationConfig-version.cmake
+[28.073s] -- Symlinking: /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/odom_visualization/share/odom_visualization/package.xml
+[28.080s] Invoked command in '/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization' returned '0': AMENT_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/install/quadrotor_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/odom_visualization
