@@ -12,4 +12,7 @@ This repositories is the descendence of https://github.com/HongbiaoZ/autonomous_
     colcon build --symlink-install  
     source install/setup.bash  
     ros2 launch ego_planner uav_new_garage.launch.py  
-note: please make sure the path does not contain Chinese characters.
+
+note: 
+①please make sure the path does not contain Chinese characters.
+②If anything wrong with rendering simulation environment, please try copy directory "new_garage_v2"(in src/vehicle_simulator/mesh) to "~/.gazebo/models"
