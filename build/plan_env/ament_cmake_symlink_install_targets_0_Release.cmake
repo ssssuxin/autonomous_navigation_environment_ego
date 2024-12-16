@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env/libplan_env.so" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/plan_env/obj_generator" "TARGETS" "plan_env" "obj_generator" "DESTINATION" "lib/plan_env")

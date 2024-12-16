@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/map_generator/random_forest" "TARGETS" "random_forest" "DESTINATION" "lib/map_generator")

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs/libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so" "TARGETS" "quadrotor_msgs__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

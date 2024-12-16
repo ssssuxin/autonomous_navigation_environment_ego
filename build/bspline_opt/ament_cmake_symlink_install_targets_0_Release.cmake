@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt/libbspline_opt.so" "TARGETS" "bspline_opt" "DESTINATION" "lib/bspline_opt")

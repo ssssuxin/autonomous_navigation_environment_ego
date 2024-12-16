@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/poscmd_2_odom/ament_cmake_environment_hooks/local_setup.bash

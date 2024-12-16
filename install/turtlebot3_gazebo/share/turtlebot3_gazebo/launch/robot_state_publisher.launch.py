@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/simulation_gazebo_model/launch_files/turtlebot3_gazebo/launch/robot_state_publisher.launch.py

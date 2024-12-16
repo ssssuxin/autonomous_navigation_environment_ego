@@ -1,6 +1,0 @@
-** WARNING ** io features related to pcap will be disabled
-** WARNING ** io features related to png will be disabled
-** WARNING ** io features related to libusb-1.0 will be disabled
-[01m[K/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/terrain_analysis/src/terrainAnalysis.cpp:16:43:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
-   16 | #include <tf2_ros/transform_broadcaster.h>[01;35m[K#[m[Kinclude <tf2/transform_datatypes.h>
-      |                                           [01;35m[K^[m[K

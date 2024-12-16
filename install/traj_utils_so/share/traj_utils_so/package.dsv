@@ -1,8 +1,0 @@
-source;share/traj_utils_so/hook/cmake_prefix_path.ps1
-source;share/traj_utils_so/hook/cmake_prefix_path.dsv
-source;share/traj_utils_so/hook/cmake_prefix_path.sh
-source;share/traj_utils_so/local_setup.bash
-source;share/traj_utils_so/local_setup.dsv
-source;share/traj_utils_so/local_setup.ps1
-source;share/traj_utils_so/local_setup.sh
-source;share/traj_utils_so/local_setup.zsh

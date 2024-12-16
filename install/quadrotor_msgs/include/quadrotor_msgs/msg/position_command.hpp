@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/quadrotor_msgs/rosidl_generator_cpp/quadrotor_msgs/msg/position_command.hpp

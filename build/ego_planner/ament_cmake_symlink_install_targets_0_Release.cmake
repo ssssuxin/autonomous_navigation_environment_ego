@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/ego_planner/traj_server" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/ego_planner/ego_planner_node" "TARGETS" "traj_server" "ego_planner_node" "DESTINATION" "lib/ego_planner")

@@ -1,8 +1,0 @@
-source;share/local_sensing_node/hook/cmake_prefix_path.ps1
-source;share/local_sensing_node/hook/cmake_prefix_path.dsv
-source;share/local_sensing_node/hook/cmake_prefix_path.sh
-source;share/local_sensing_node/local_setup.bash
-source;share/local_sensing_node/local_setup.dsv
-source;share/local_sensing_node/local_setup.ps1
-source;share/local_sensing_node/local_setup.sh
-source;share/local_sensing_node/local_setup.zsh

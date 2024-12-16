@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/vehicle_simulator/launch/system_garage.launch.py

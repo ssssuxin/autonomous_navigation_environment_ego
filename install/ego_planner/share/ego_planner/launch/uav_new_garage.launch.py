@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/ego_planner_ros2/src/planner/plan_manage/launch/uav_new_garage.launch.py

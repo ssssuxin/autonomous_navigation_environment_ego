@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/src/simulation_gazebo_model/launch_files/turtlebot3_gazebo/launch/uav_and_env.launch.py

@@ -1,9 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/install/local.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/install.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/list_install_components.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/rebuild_cache.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/edit_cache.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/test.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/install/strip.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/turtlebot3_simulations_uninstall.dir
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/turtlebot3_simulations/CMakeFiles/uninstall.dir

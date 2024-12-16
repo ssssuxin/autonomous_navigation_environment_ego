@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bridge_test/subscriber" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bridge_test/subscriber_bspline" "TARGETS" "subscriber" "subscriber_bspline" "DESTINATION" "lib/bridge_test")

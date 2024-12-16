@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_cpp.hpp

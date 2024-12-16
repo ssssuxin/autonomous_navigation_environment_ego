@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/poscmd_2_odom/poscmd_2_odom" "TARGETS" "poscmd_2_odom" "DESTINATION" "lib/poscmd_2_odom")

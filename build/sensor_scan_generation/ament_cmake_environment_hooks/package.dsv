@@ -1,4 +1,0 @@
-source;share/sensor_scan_generation/local_setup.bash
-source;share/sensor_scan_generation/local_setup.dsv
-source;share/sensor_scan_generation/local_setup.sh
-source;share/sensor_scan_generation/local_setup.zsh

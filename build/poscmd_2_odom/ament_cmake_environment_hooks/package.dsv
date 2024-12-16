@@ -1,4 +1,0 @@
-source;share/poscmd_2_odom/local_setup.bash
-source;share/poscmd_2_odom/local_setup.dsv
-source;share/poscmd_2_odom/local_setup.sh
-source;share/poscmd_2_odom/local_setup.zsh

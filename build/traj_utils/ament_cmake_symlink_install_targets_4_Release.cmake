@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/traj_utils/rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "traj_utils__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/traj_utils")

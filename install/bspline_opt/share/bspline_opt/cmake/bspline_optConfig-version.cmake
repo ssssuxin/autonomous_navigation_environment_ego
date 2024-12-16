@@ -1,1 +1,0 @@
-/home/suxin/English_Path/test111/autonomous_navigation_environment_ego/build/bspline_opt/ament_cmake_core/bspline_optConfig-version.cmake
